@@ -10,11 +10,6 @@ function App() {
 
 let groups = [];
 
-// for (let id in People) {
-//   groups.push()
-//   console.log(People[id]["name"]);
-// }
-
 for (let index = 0; index < Object.keys(People).length; index++) {
   groups.push(
     <div>
