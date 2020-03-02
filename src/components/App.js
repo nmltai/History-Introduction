@@ -8,7 +8,6 @@ import {PersonPositions} from '../data/mult_ppl'
 
 function App() {
 let groups = [];
-console.log("hello");
 
 for (let index = 0; index < Object.keys(People).length; index++) {
   groups.push(
